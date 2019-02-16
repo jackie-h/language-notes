@@ -1,9 +1,9 @@
 
 
 # Node.js - 10 regrets - Ryan Dahl, creator of Node - 2018
-https://tinyclouds.org/jsconf2018.pdf
-https://www.youtube.com/watch?v=M3BM9TB-8yA
-Javascript still the best dynamic language
+https://tinyclouds.org/jsconf2018.pdf  
+https://www.youtube.com/watch?v=M3BM9TB-8yA .  
+Javascript still the best dynamic language . 
 Regrets:
 1) Should have stuck with Promises - better async
 2) Security - V8/web-browser secure, but node allowed things to be bound to everything - any system call. Sandboxing
