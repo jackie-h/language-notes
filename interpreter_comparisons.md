@@ -23,6 +23,12 @@ https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b
 ## Lua
 Register-based rather than stack-based
 
+## Techniques
+
+### Inlining or Inline Expansion
+https://en.wikipedia.org/wiki/Inline_expansion
+Increases memory but reduces function call overhead
+Enables further whole program optimizations
 
 ## General Research Papers
 
