@@ -1,6 +1,10 @@
-Javascript
+# Dynamic Language Interpreter Research
 
-V8:
+Understanding optimizations and approaches in existing dynamic languages
+
+## Javascript
+
+### V8:
 A Tale of Turbofan - explains Inlining nicely
 https://docs.google.com/presentation/d/1UXR1H2elTdAYJJ0Eed7lUctCVUserav9sAYSidxp8YE
 
@@ -9,12 +13,16 @@ https://medium.com/dailyjs/understanding-v8s-bytecode-317d46c94775
 
 Interesting - 
 
-Python
+## Python
 
 https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b
 
 
-Self
+## Self
+
+## Lua
+Register-based rather than stack-based
+
 
 General:
 Stack-based vs Register-based
