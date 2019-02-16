@@ -17,6 +17,9 @@ Interesting -
 
 https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b
 
+How fast can we make interpreted Python? - looks at register based and 
+https://arxiv.org/pdf/1306.6047v2.pdf
+
 
 ## Self
 
@@ -29,6 +32,10 @@ Register-based rather than stack-based
 https://en.wikipedia.org/wiki/Inline_expansion
 Increases memory but reduces function call overhead
 Enables further whole program optimizations
+
+### Loop unrolling
+http://www2.cs.uh.edu/~jhuang/JCH/JC/loop.pdf
+https://en.wikipedia.org/wiki/Loop_unrolling
 
 ## General Research Papers
 
