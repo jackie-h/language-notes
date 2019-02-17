@@ -22,6 +22,9 @@ https://leanpub.com/insidethepythonvirtualmachine/read
 
 https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b
 
+Efforts to make python faster
+https://faster-cpython.readthedocs.io/index.html
+
 How fast can we make interpreted Python? - looks at register based and stack based
 https://arxiv.org/pdf/1306.6047v2.pdf
 
@@ -40,6 +43,7 @@ Enables further whole program optimizations
 
 ### Loop unrolling
 http://www2.cs.uh.edu/~jhuang/JCH/JC/loop.pdf
+
 https://en.wikipedia.org/wiki/Loop_unrolling
 
 ## General Research Papers
