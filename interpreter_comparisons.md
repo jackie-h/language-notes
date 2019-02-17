@@ -11,13 +11,18 @@ https://docs.google.com/presentation/d/1UXR1H2elTdAYJJ0Eed7lUctCVUserav9sAYSidxp
 https://ponyfoo.com/articles/an-introduction-to-speculative-optimization-in-v8
 https://medium.com/dailyjs/understanding-v8s-bytecode-317d46c94775
 
-Interesting - 
+Interesting - that typescript does not 
 
 ## Python
 
+https://medium.com/@dawran6/getting-started-with-python-internals-a5474ccb8022
+
+Inside the python virtual machine
+https://leanpub.com/insidethepythonvirtualmachine/read
+
 https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b
 
-How fast can we make interpreted Python? - looks at register based and 
+How fast can we make interpreted Python? - looks at register based and stack based
 https://arxiv.org/pdf/1306.6047v2.pdf
 
 
