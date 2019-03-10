@@ -24,3 +24,7 @@ https://drive.google.com/a/colorado.edu/file/d/0B6ZM1oYivK60MFRkVkY1c3J5Rzg/view
 ### Implementations
 
 https://github.com/janestreet/incremental
+
+## Functional Reactive Programming
+
+https://blog.janestreet.com/breaking-down-frp/
