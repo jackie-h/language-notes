@@ -21,3 +21,6 @@ https://drive.google.com/a/colorado.edu/file/d/0B6ZM1oYivK60MFRkVkY1c3J5Rzg/view
 ### Papers
 2014 https://web.archive.org/web/20161030185650/http://repository.cmu.edu/cgi/viewcontent.cgi?article=3549&context=compsci
 
+### Implementations
+
+https://github.com/janestreet/incremental
