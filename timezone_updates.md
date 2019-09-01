@@ -1,5 +1,7 @@
+Current state of Timezone updates in different programming languages
+
 Python:
-A proposals was put together to add support for IANA/Olsen timezones to the standard library
+Proposal to add support for IANA/Olsen timezones to the standard library
 http://pyfound.blogspot.com/2019/05/paul-ganssle-time-zones-in-standard.html
 Current options are this:
 https://pypi.org/project/pytz/
@@ -19,4 +21,4 @@ Uses ICU (C++)
 
 ICU - 
 http://site.icu-project.org/
-ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java softwar
+ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
