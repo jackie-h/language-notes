@@ -22,3 +22,8 @@ Uses ICU (C++)
 ICU - 
 http://site.icu-project.org/
 ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
+
+Operating systems:
+Linux - includes IANA
+MacOS - includes IANA
+Windows - Microsoft Timezone 
