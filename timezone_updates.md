@@ -13,6 +13,8 @@ https://www.oracle.com/technetwork/java/javase/documentation/tzupdater-readme-13
 C++:
 Proposal for C++ 20 to add to the standard library
 https://mariusbancila.ro/blog/2018/03/27/cpp20-calendars-and-time-zones/
+Based on this, which is available for C++11 onwards
+https://github.com/HowardHinnant/date
 
 NodeJS:
 https://github.com/nodejs/help/issues/1843
