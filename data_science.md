@@ -44,3 +44,14 @@ https://typelevel.org/spire/
 Spire is a numeric library for Scala which is intended to be generic, fast, and precise.
 
 
+c++:
+http://arma.sourceforge.net/ Armadillo - C++ library for linear algebra & scientific computing
+https://gitlab.com/conradsnicta/armadillo-code
+https://www.mlpack.org - mlpack - fast, flexible C++ machine learning library
+https://github.com/mlpack/mlpack/ 
+
+Whole program optimization - want it in one place
+Fragmented Python & Java eco-system
+
+
+
