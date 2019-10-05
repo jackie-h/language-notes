@@ -33,6 +33,7 @@ http://www.augeas.net (config)
 
 Byte-code level transformations - if programs compile to byte code can do analysis there on similarity
 E.g. LLVM
+Requires code to compile, Not bidirectional
 
 What can we do with them ?
 
