@@ -25,7 +25,22 @@ https://github.com/eclipse/deeplearning4j
 https://github.com/eclipse/deeplearning4j/tree/master/nd4j
 
 Not using pure Java - special NDArray data structures and wrappers around C++
+Wrappers around other C++ libraries
+
+https://github.com/jtablesaw/tablesaw
+
+Part of:
+http://beakerx.com/
+https://github.com/twosigma/beakerx
 
 
+Scala:
+https://github.com/ThoughtWorksInc/DeepLearning.scala
+Uses Java nd4j underneath - provided by Thoughtworks
+http://beakerx.com/ - also provides Scala
+
+
+https://typelevel.org/spire/
+Spire is a numeric library for Scala which is intended to be generic, fast, and precise.
 
 
