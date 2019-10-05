@@ -26,5 +26,7 @@ https://www.youtube.com/watch?v=E-ZzIXXHjAU&t=2s
 
 coAST is a universal abstract syntax tree that allows to easily analyze each programming language
 https://github.com/coala/coAST
+Not bidirectional
 
-
+Tools that are bi-directional 
+http://www.augeas.net (config)
