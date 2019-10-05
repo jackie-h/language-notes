@@ -1,7 +1,9 @@
-Themes:
+Themes
+---
+
 Need ability to whole optimize the program
 Python - C++ - not enough/not possible, need shared data structures
-Mid-level optimizations - MLIR
+Mid-level optimizations - MLIR - higher than byte code, lower than imperfect semantics of programming languages
 
 Inspirations
 ---
