@@ -21,8 +21,6 @@ https://arxiv.org/pdf/1809.07945.pdf
 SCC: Automatic Classification of Code Snippets
 
 
-https://github.com/src-d/awesome-machine-learning-on-source-code
-
 Babelfish - Universal Code Parser
 https://doc.bblf.sh/
 https://www.youtube.com/watch?v=E-ZzIXXHjAU&t=2s
@@ -38,7 +36,18 @@ Byte-code level transformations - if programs compile to byte code can do analys
 E.g. LLVM
 Requires code to compile, Not bidirectional
 
+Papers
+------
+
+
+https://ml4code.github.io/papers.html
+https://github.com/src-d/awesome-machine-learning-on-source-code
+
+
+
 What can we do with them ?
+-----
+
 
 Duplication Detection across languages
 Code complexity metrics
