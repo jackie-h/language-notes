@@ -1,13 +1,14 @@
-Github semantic - written in haskell, open source
-https://github.com/github/semantic
+
+Source Code Analyzers
+---------------------
+https://github.com/github/semantic - semantic is a Haskell library and command line tool for parsing, analyzing, and comparing source code.
+
+Semmle: https://semmle.com/
+Now joined github
 
 Kythe (google):
 https://kythe.io/
-
-Semmle
-https://semmle.com/
-Now joined github
-
+The Kythe project was founded to provide and support tools and standards that encourage interoperability among programs that manipulate source code. At a high level, the main goal of Kythe is to provide a standard, language-agnostic interchange mechanism, allowing tools that operate on source code — including build systems, compilers, interpreters, static analyses, editors, code-review applications, and more — to share information with each other smoothly.
 
 Treesitter - Tree-sitter is a parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file and efficiently update the syntax tree as the source file is edited
 http://tree-sitter.github.io/tree-sitter/
