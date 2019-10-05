@@ -30,3 +30,17 @@ Not bidirectional
 
 Tools that are bi-directional 
 http://www.augeas.net (config)
+
+Byte-code level transformations - if programs compile to byte code can do analysis there on similarity
+E.g. LLVM
+
+What can we do with them ?
+
+Duplication Detection across languages
+Code complexity metrics
+Single models for code completion - applicable across all languages 
+
+Deep learning - need to adapt models for trees, to do more accurate deep learning
+
+
+
