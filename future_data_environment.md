@@ -8,7 +8,9 @@ Mid-level optimizations - MLIR - higher than byte code, lower than imperfect sem
 Inspirations
 ---
 Weld - Rust and LLVM
+Wrapped for Python - grizzly
 https://notamonadtutorial.com/weld-accelerating-numpy-scikit-and-pandas-as-much-as-100x-with-rust-and-llvm-12ec1c630a1
 https://cs.stanford.edu/~matei/papers/2017/cidr_weld.pdf
+https://github.com/weld-project/weld
 
 Performance:
