@@ -44,6 +44,9 @@ https://ml4code.github.io/papers.html
 https://github.com/src-d/awesome-machine-learning-on-source-code
 
 
+SAR: Learning Cross-Language API Mappings with Little Knowledge
+https://arxiv.org/pdf/1803.04715.pdf
+
 
 What can we do with them ?
 -----
