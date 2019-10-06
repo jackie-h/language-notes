@@ -29,6 +29,7 @@ https://github.com/eclipse/deeplearning4j/tree/master/nd4j
 
 Not using pure Java - special NDArray data structures and wrappers around C++
 Wrappers around other C++ libraries
+Backed by Skymind https://docs.skymind.ai/docs 
 
 https://github.com/jtablesaw/tablesaw
 
