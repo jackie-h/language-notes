@@ -67,7 +67,15 @@ Issues - what about NLP - language stuff. Why - performance, and enables typical
 
 * Key dimensions - Client, Employee, Country, Book, Server
 
-* Each function had a hash
+* Each function had a hash - unison style
+
+* SLO's of attributes
+
+* LLVM style interop
+
+* Pin sources and recalc
+
+* Back testing and time travel debug
 
 ## Selling points
 
@@ -89,6 +97,8 @@ Issues - what about NLP - language stuff. Why - performance, and enables typical
 * Completeness - DRA for instance - waits until complete - transactional
 
 * Correctness - is everything using the same source correct as of the same time for reference data. For instance, if credit rating changes or something like that. Need to process it all at once
+
+* Collection implementations change over time - don't want to rewrite for that. Should we generate concrete collections
 
 
 
