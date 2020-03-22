@@ -77,9 +77,18 @@ Issues - what about NLP - language stuff. Why - performance, and enables typical
 
 * Back testing and time travel debug
 
+* Generate interfaces from the Pure domain ? Problem with Pure is not unique, perhaps allow synonyms behaviour
+
+* Data marketplace - data contract - what you want and how timely
+
 ## Selling points
 
 * Need to be able to operate from many code bases
+
+* Get behaviour cumulatively for free - implement the interfaces
+
+* What if everyone could take a library and get the dollar price - if providing the inputs
+
 
 ## Prior solutions
 
@@ -100,7 +109,7 @@ Issues - what about NLP - language stuff. Why - performance, and enables typical
 
 * Collection implementations change over time - don't want to rewrite for that. Should we generate concrete collections
 
-
+* Risk - think about risk calculations
 
 
 
