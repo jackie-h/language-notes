@@ -67,6 +67,8 @@ Issues - what about NLP - language stuff. Why - performance, and enables typical
 
 * Key dimensions - Client, Employee, Country, Book, Server
 
+* Each function had a hash
+
 ## Selling points
 
 * Need to be able to operate from many code bases
@@ -81,7 +83,12 @@ Issues - what about NLP - language stuff. Why - performance, and enables typical
   * Testing implementations for each language
   * Lack of functional collections in Java and others
   * Mismatches in primitive types
+  
+* FIFO/LIFO calculations like Pnl
 
+* Completeness - DRA for instance - waits until complete - transactional
+
+* Correctness - is everything using the same source correct as of the same time for reference data. For instance, if credit rating changes or something like that. Need to process it all at once
 
 
 
