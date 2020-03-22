@@ -63,11 +63,13 @@ Issues - what about NLP - language stuff. Why - performance, and enables typical
 
 * The problem with rules engines & drived reference data - like SCRP. Teams can own derived ref data
 
+* Timely - instead of waiting for EOD, what if we had it incrementally - we actually do, desk by desk
+
+* Key dimensions - Client, Employee, Country, Book, Server
+
 ## Selling points
 
 * Need to be able to operate from many code bases
-
-
 
 ## Prior solutions
 
