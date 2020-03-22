@@ -76,9 +76,9 @@ Issues - what about NLP - language stuff. Why - performance, and enables typical
 ## Challenges
 
 * Language differences
-** Testing implementations for each language
-** Lack of functional collections in Java and others
-** Mismatches in primitive types
+  * Testing implementations for each language
+  * Lack of functional collections in Java and others
+  * Mismatches in primitive types
 
 
 
