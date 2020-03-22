@@ -51,6 +51,35 @@ Issues - what about NLP - language stuff. Why - performance, and enables typical
 
 * If branches in code - that is where the complexity is. Similar to compiler speculation, what changes cause us to take a different branch.
 
+* Use only the primitives in the language and the standard library to implement. Reduce dependency hell
+
+* Only humans - fully authorized end to end - no p2 or batch to batch
+
+* Storing intermediate results - do it
+
+* Ownership - teams own balances - calculation outputs
+
+* Provide full set of math/stats libs
+
+* The problem with rules engines & drived reference data - like SCRP. Teams can own derived ref data
+
+## Selling points
+
+* Need to be able to operate from many code bases
+
+
+
+## Prior solutions
+
+* Haxe
+
+## Challenges
+
+* Language differences
+** Testing implementations for each language
+** Lack of functional collections in Java and others
+** Mismatches in primitive types
+
 
 
 
