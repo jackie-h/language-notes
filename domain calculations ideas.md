@@ -81,6 +81,8 @@ Issues - what about NLP - language stuff. Why - performance, and enables typical
 
 * Data marketplace - data contract - what you want and how timely
 
+* web assembly - can we use that to provide this for the browser
+
 ## Selling points
 
 * Need to be able to operate from many code bases
