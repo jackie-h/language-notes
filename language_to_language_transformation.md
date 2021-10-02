@@ -18,6 +18,8 @@
 
 ## Research Papers
 
+* [Plaisted, David. (2013). Source-to-Source Translation and Software Engineering. Journal of Software Engineering and Applications. 06. 30-40. 10.4236/jsea.2013.64A005.](https://www.researchgate.net/publication/276492765_Source-to-Source_Translation_and_Software_Engineering)
+
 * [2016 - Towards a Unified View of Modeling and Programming (intro)](https://havelund.com/Publications/unified-intro-isola-2016.pdf)
 
 * [2016 - Concepts of Programming Languages: A Unified Approach](http://www.cs.ecu.edu/karl/ProgrammingLanguagesAugust2016.pdf)
