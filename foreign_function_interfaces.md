@@ -17,12 +17,19 @@ Java - project panama
 
 Rust
 
+# LIBFFI - Calling compiled code from interpreted languages at runtime
+
+* https://sourceware.org/libffi/ and https://github.com/libffi/libffi
+* Provides a portable, high level programming interface to various calling conventions. This allows a programmer to call any function specified by a call interface description at run-time. Provides only part of the picture, developers must write the type conversion to go with it.
+* Widely used in OpenJDK, Ruby, CPython and more
+
 
 # Language Bindings to C/C++
 
-* SWIG - Now deprecated by it's creator - https://code.activestate.com/lists/python-dev/109281
+* SWIG - http://www.swig.org/. Now deprecated by it's creator - https://code.activestate.com/lists/python-dev/109281
 
 * CLIF - generate Python language bindings to C/C++ - from Google (their alternative to SWIG). Uses LLVM https://github.com/google/clif 
+* cppyy: Automatic Python-C++ bindings - create bindings at runtime to CPP using Cling the CPP interpreter https://cppyy.readthedocs.io/en/latest/
 
 
 # Python Bindings 
