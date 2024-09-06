@@ -4,7 +4,7 @@
 
 In 2014 I was one of the early developers on a project a Goldman Sachs to build an environment 
 that made it easy to model and share data
-The lead of the project was Pierre De'Belen. Pierre had been working on the project on his own and now had the buy-in 
+The lead of the project was Pierre De Belen. Pierre had been working on the project on his own and now had the buy-in 
 to turn it into a fully-fledged platform that he called Pure.
 I had been working on a project to share domain models across Finance and the Risk divisions that used a previous version 
 of the concept (MOJO), Pure was his next generation version of that to do this across the bank
