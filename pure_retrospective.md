@@ -20,20 +20,15 @@ A simple equity gives rise to more complex instruments, with underliers that are
 
 ## The key concepts
 
-Define a model of the key logical concepts in a way that is precise and extensible and correct
-Separate the logical model from the physical execution engine to allow those to change at different rates
-- you should not have to rewrite your business logic just because a faster DB came along
-Execute your business logic against the logical model
-- the model must execute to prove it is correct. It should not just be a paper UML model/diagram
-
+- Define a model of the key logical concepts in a way that is precise and extensible and correct.
+- Separate the logical model from the physical execution engine to allow those to change at different rates. You should not have to rewrite your business logic just because a faster DB came along
+- Execute your business logic against the logical model. The model must execute to prove it is correct. It should not just be a paper UML model/diagram
 
 Definitions
 - A single precise definition of what something is across the whole bank
 
-
-
 ### Correctness
-It was based on formal meta-modelling with proper concepts for M1-M4 see
+Pure was based on formal meta-modelling with proper concepts for M1-M4 see https://en.wikipedia.org/wiki/Meta-Object_Facility.
 It included its own programming language - functional programming with classes and inheritance and gives compile time feedback on errors
 - Cardinality can be specified precisely as part of the type system
 - Constraints and validation part of the model
@@ -63,7 +58,12 @@ Uniqueness -
 - Projections defining what you use, can see what consumers are using
 - Runtime statistics
 - Refactoring
-- Lineage 
+- Lineage
+
+### Business User (non-developer) friendly
+- Data browser with interactive queries against the models
+- Curated universes to provide a reduced guided set of relevant concepts/attributes for users
+- Plugins to QlikView and other BI tools
 
 ## The business case
 
@@ -209,6 +209,12 @@ This was imperfect as it tends to also be specific to how they transport files/A
 
 Just like code, it takes education and effort and curation to keep things clean and managable
 
+"I will never get my large org to agree on a model"
+This can be painful, and take time, but that is the valuable part, getting parts of the org to agree on a definition
+The act of modelling and discussion is valuable, building consensus
+This can be avoided/streamlined by taking an existing industry model, such as CDM for derivatives
+
+
 ### Retro-fitting into an existing environment
 SecDb already had all the key models for pricing (UFO's - Unified Financial Objects), with it's own language Slang.
 We were never going to be able to move that out
@@ -287,10 +293,29 @@ Why not just use SQL ?
 - SQL Standard is weak, can't use it as an abstraction across different databases as each one is different
 - Wanted to support things like Spark, not just databases
 
+What about Spark? 
+
 What about Domain Driven Design and bounded contexts ?
 Isn't it ok for everyone to have different models if useful for them ? Yes, until it hurts your business - 
 The financial domain is a bounded context, I believe we can/should be consistent within that
 
 These ideas aren't new - what about Microsoft's OData - https://www.odata.org/
+
+
+## Conclusion - Would I build it again ?
+
+The compile time feedback is amazing. Much better than XML or YAML. Avoiding typo's in SQL
+
+The model is valuable, I find this is required and SQL is not enough. You want to see the descriptions and human read-able names and express constraints
+
+Associations/relationships as separate first class elements is a big differentiator and allows modularization/extensibility
+
+Timestamp propagation/consistent snapshots of joined data is hard, having a framework to do this is for you is valuable
+
+Having your own programming language is expensive, I would try very hard to avoid, but a functional/constrained language is essential here
+
+UI's are difficult and expensive to do well, none of our model editing UI's really ended up being where they need to be
+I'd stick with text and visualizations
+
 
 
