@@ -315,7 +315,15 @@ Timestamp propagation/consistent snapshots of joined data is hard, having a fram
 Having your own programming language is expensive, I would try very hard to avoid, but a functional/constrained language is essential here
 
 UI's are difficult and expensive to do well, none of our model editing UI's really ended up being where they need to be
-I'd stick with text and visualizations
+I'd stick with text and visualizations or plugging into other UI's
+
+The mapping grammar was never intuitive, I'd change that, developers tend to prefer mapping from the store
+
+## Other notes
+
+Incentives - how to produce a win-win, if you model the data, you also get this
+DSF? framework in Slang where if you named things correctly you would automatically get joins
+
 
 
 
