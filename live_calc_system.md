@@ -64,6 +64,12 @@ Specify a calc and derive a plan from it
 
 What keys/object-oriented gives us, is the ability to consistently understand the primary key of a "thing"
 
+Pluggable interface implementations
+e.g. accrued interest
+Several instruments share the same type of calculation - define a function/methodology that can be plugged in
+Gives ability to then do bulk calcs
+
+
 
 ## Maintainability
 
