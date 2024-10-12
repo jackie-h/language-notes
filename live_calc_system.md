@@ -46,6 +46,7 @@ Adjustments
 mono-repo vs versioned ?
 pluggable versioned calcs - incremental
 
+Developers define the data they need, we may group calcs together to calculate that require same inputs
 
 ## Display layer
 - Keep strings out of calc layer, use for display later
@@ -76,6 +77,7 @@ What keys/object-oriented gives us, is the ability to consistently understand th
  - Lineage
  - Inspect intermediate results
 
+ - Re-runnable - can start any sub-calc again
 
 ## Versioned - everywhere
 
@@ -129,6 +131,9 @@ Budgeted compute per calc
 Scheduler - big vs small workloads
 Important snapshots - EOD  rate
 
+Setting a timelimit - every calc must finish within 5 minutes ?
+
+
 Required runs - EOD x 
 Schedule - QE,ME
 Needs a holiday calendar
@@ -143,7 +148,9 @@ Pre-checks - do we have everything data wise and is it good ?
 
 ## Locality
 
+Run near data
 
+Run in region
 
 ## Error handling
 If one item fails, must be able to bisect and try again.
@@ -160,6 +167,17 @@ Auto differentiation techniques
 
 Can we turn UFO into interfaces to allow bulk vectorized ?
 
+The desks bring up state to price during the day, can we share - keep that up
+
+WE DONT USE CBB AS A GRID - NOT HIGHLY PARALLEL - WE USE IT JUST AS COMPUTE
+
+## Hardware performance
+
+Predictable performance
+
+Dedicated hardware vs shared
+
+Virtualization
 
 ## OKR
 
@@ -175,7 +193,8 @@ Instrument type
 
 Failure rate of calc. 
 
-
+What should charge model/incentive structure be ? 
+See a cost per client for calculating risk ? See a cost per desk for calculating their risk
 
 
 
