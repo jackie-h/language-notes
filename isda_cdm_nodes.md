@@ -14,6 +14,6 @@
 
 [Sample JSON messages](https://github.com/finos/common-domain-model/tree/master/rosetta-source/src/main/resources/result-json-files)
 
-
+[Legend CDM model](https://gitlab.com/finosfoundation/legend/financial-objects/cdm/-/tree/master/entities/model/external/cdm?ref_type=heads)
 
 
